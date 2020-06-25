@@ -1,11 +1,3 @@
----
-layout: single
-title: Leetcode 312 Burst Balloons.
-date:   2020-05-23 23:31:02 +0200
-categories: [Java, LeetCode]
-tags: [Java]
-excerpt: Burst Balloons.
----
 
 Suppose if you have to burst N Balloons, which are like N Steps. 
 In the the i th step we have n - i balloons left. This will become O(N!).
