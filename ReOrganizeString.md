@@ -36,6 +36,8 @@ public String reorganizeString(String inputString) {
 
         }
 
+/** Untill the above code, the logic is same as any frequency based problem. */
+/** In a string how many similar chars are present. */
 
         StringBuilder sb = new StringBuilder();
         while (!heap.isEmpty()) {
