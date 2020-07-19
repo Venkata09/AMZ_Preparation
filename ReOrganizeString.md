@@ -31,7 +31,7 @@ public String reorganizeString(String inputString) {
             }
 
             if (eachCharCount > 0)
-                heap.add(new int[]{eachCharCount, 'a' + i});
+                heap.add(new int[]{eachCharCount, 'a' + i}); /* You will insert the values like [2,96+1] [1, 97+1] */
 
 
         }
@@ -42,6 +42,7 @@ public String reorganizeString(String inputString) {
         StringBuilder sb = new StringBuilder();
         while (!heap.isEmpty()) {
             int[] currentEntry = heap.poll();
+            /** You will get the values likes [2, 97], [1, 98] */
             /* How this condition will get the solution ?? How this condition helps*/
             if (sb.length() == 0 || sb.charAt(sb.length() - 1) != (char) currentEntry[1]) {
                 sb.append((char) currentEntry[1]);
